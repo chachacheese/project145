@@ -1,7 +1,7 @@
 # 📚 Project145 – 5인 팀 최종 프로젝트 (2021 · 아카이브용)
 
 본 프로젝트는 2021년 진행된 5인 팀 최종 프로젝트로,
-Java 기반 MVC 구조를 활용하여 로그인, 게시판, 결제, 수강신청,
+Java 기반 Spring MVC 구조를 활용하여 로그인, 게시판, 결제, 수강신청,
 금융 오픈 API를 활용한 적립금 충전/인출 기능 등 다양한 서비스 기능을 구현하는 데 목적이 있었습니다.
 
 2026년 현재 기준으로 코드를 다시 보관(Archive)하고자 GitHub에 업로드한 프로젝트이며,  
@@ -88,7 +88,7 @@ Java 기반 MVC 구조를 활용하여 로그인, 게시판, 결제, 수강신�
 - **Java 8**
 - **JSP / Servlet**
 - **MVC 아키텍처 (Controller / Service / DAO / DTO)**
-- **MySQL**
+- **ORACLE**
 - **Eclipse**
 - **Tomcat 8**
 - **jQuery / AJAX**
@@ -131,7 +131,7 @@ Project145/
 
 1. Eclipse에서 프로젝트 Import → Existing Maven Project 선택  
 2. Tomcat 8 서버 추가  
-3. MySQL 연결 정보 수정 (`dbConnection.java`)  
+3. ORACLE 연결 정보 수정 (`dbConnection.java`)  
 4. 실행 (Run on Server)
 
 ※ 현재는 환경 차이로 실행이 어려울 수 있으며,  
